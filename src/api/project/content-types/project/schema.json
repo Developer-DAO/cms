@@ -77,8 +77,7 @@
           "localized": true
         }
       },
-      "type": "json",
-      "required": true
+      "type": "richtext"
     },
     "governance_proposal_links": {
       "pluginOptions": {
@@ -86,8 +85,8 @@
           "localized": true
         }
       },
-      "type": "json",
-      "required": true
+      "type": "richtext",
+      "required": false
     }
   }
 }
