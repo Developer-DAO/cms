@@ -34,16 +34,6 @@
       "type": "string",
       "required": true
     },
-    "contributors": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string",
-      "unique": false,
-      "required": true
-    },
     "description_short": {
       "pluginOptions": {
         "i18n": {
@@ -87,6 +77,14 @@
       },
       "type": "richtext",
       "required": false
+    },
+    "contributors": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "richtext"
     }
   }
 }
